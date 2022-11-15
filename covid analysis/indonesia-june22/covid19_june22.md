@@ -1,7 +1,7 @@
 # COVID-19 Data Analysis in Indonesia (June 2022)
 Author: Eisya Hanina Hidayati  
 Published on: 15-11-2022  
-Main Course: Data Science for Beginner  
+Course: Data Science for Beginner  
 Organizer: DQLab
 
 ## Overview
@@ -73,14 +73,14 @@ cov_id_update$penambahan$tanggal
 According to the data, the latest update for the COVID-19 cases is May 14th, 2022.
 
 
-####	How many COVID-19 recovery cases from the latest update?
+#### How many COVID-19 recovery cases from the latest update?
 ```{r negative}
 cov_id_update$penambahan$jumlah_sembuh
 ```
 According to the data, the amount of COVID-19 recovery cases from the latest update is 416 cases.
 
 
-####	How many COVID-19 death cases from the latest update?
+#### How many COVID-19 death cases from the latest update?
 
 ```{r death}
 cov_id_update$penambahan$jumlah_meninggal
@@ -88,14 +88,14 @@ cov_id_update$penambahan$jumlah_meninggal
 According to the data, the amount of COVID-19 death cases from the latest update is 5 cases.
 
 
-####	How many COVID-19 positive cases in total as of the latest update?
+#### How many COVID-19 positive cases in total as of the latest update?
 ```{r total_positive}
 cov_id_update$total$jumlah_positif
 ```
 According to the data, the total amount of COVID-19 positive cases up until the latest update is 6.050.519 cases.
 
 
-####	How many COVID-19 death cases in total as of the latest update?
+#### How many COVID-19 death cases in total as of the latest update?
 
 ```{r total_death}
 cov_id_update$total$jumlah_meninggal
@@ -105,3 +105,5 @@ According to the data, the total amount of COVID-19 death cases up until the lat
 
 ****
 *Special thanks to DQLab for organizing this!*
+
+Eisya
